@@ -1,0 +1,32 @@
+[1 of 3] Compiling Test                          
+[2 of 3] Linking executable dist-26545-9fa20113/build/test/test
+[3 of 3] Checking dist-26545-9fa20113/build/test
+copying dist-26545-9fa20113/build/test/test to test
+Throughputs for "favg_opt", "favg_naive" each running 5 times for at least 1 CPU second:
+  favg_opt:  1.09 WALL ( 1.09 usr +  0.00 sys =  1.09 CPU) @ 173.74/s (n=189)
+             1.09 WALL ( 1.09 usr +  0.00 sys =  1.09 CPU) @ 173.90/s (n=189)
+             1.09 WALL ( 1.09 usr +  0.00 sys =  1.09 CPU) @ 173.74/s (n=189)
+             1.09 WALL ( 1.09 usr +  0.00 sys =  1.09 CPU) @ 173.74/s (n=189)
+             1.09 WALL ( 1.09 usr +  0.00 sys =  1.09 CPU) @ 173.74/s (n=189)
+favg_naive:  1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 116.65/s (n=122)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 116.65/s (n=122)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 116.65/s (n=122)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 116.54/s (n=122)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 116.65/s (n=122)
+            Rate    favg_naive   favg_opt
+favg_naive 117+-0/s         --       -33%
+  favg_opt 174+-0/s        49%         --
+Throughputs for "fsum_opt", "fsum_naive" each running 5 times for at least 1 CPU second:
+  fsum_opt:  1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 175.60/s (n=184)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 175.60/s (n=184)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 175.60/s (n=184)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 175.60/s (n=184)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 175.60/s (n=184)
+fsum_naive:  1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 152.92/s (n=161)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 152.92/s (n=161)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 152.92/s (n=161)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 153.07/s (n=161)
+             1.05 WALL ( 1.05 usr +  0.00 sys =  1.05 CPU) @ 152.92/s (n=161)
+            Rate    fsum_naive   fsum_opt
+fsum_naive 153+-0/s         --       -13%
+  fsum_opt 176+-0/s        15%         --
